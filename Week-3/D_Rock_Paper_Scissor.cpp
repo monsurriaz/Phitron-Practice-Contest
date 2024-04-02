@@ -35,11 +35,7 @@ int main()
                 cf++;
             else if(s1[i] == 'P' && s2[i] == 'R')
                 cf++;
-            else if(s2[i] == 'R' && s1[i] == 'S')
-                cfn++;
-            else if(s2[i] == 'S' && s1[i] == 'P')
-                cfn++;
-            else if(s2[i] == 'P' && s1[i] == 'R')
+            else
                 cfn++;
         }
 
